@@ -1,0 +1,148 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(179, 179, 179);
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+}
+
+#Cabeça{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#Menu{
+    margin: 0px 0px 0px 10px;
+
+}
+
+#SubMenu, a{
+    margin: 0px 10px 0px 0px;
+    gap: 20px;
+
+}
+
+/* Fim Header */
+
+/* Main */
+
+main{
+    display: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#Intro{
+    width: 100%;
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#Perfil img{
+    width: 100%;
+    border-radius: 100px;
+}
+
+/* Inicio Explore */
+
+#Explore{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(202, 202, 202);
+    
+}
+
+#Explorando{
+    width: 100%;
+    height: 300px;
+    margin: 10px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#Img2{
+    width: 40%;
+    height: 200px;
+    border-radius: 5px;
+    background-color: rgb(78, 78, 78);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Fim Explore */
+
+/* Inicio Opçoes */
+
+#Opçoes{
+    width: 90%;
+    margin: 10px 0px;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#Posts{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Fim Main */
+
+/* Footer */
+
+footer{
+    width: 100%;
+    margin: 10px 0px 0px 0px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(37, 37, 37);
+}
+
+#Contato{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+
+
+}
