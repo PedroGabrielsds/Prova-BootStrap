@@ -105,10 +105,48 @@ main{
 }
 
 #Posts{
-    width: 100%;
+    width: 50%;
     display: flex;
     flex-direction: row;
 
+}
+
+#Publis{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    
+
+}
+
+#Imagen{
+    width: 50%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#Dono{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+#Autor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+#Autor img{
+    width: 10%;
+    border-radius: 200px;
 }
 
 
