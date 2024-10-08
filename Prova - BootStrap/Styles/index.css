@@ -100,9 +100,8 @@ main{
     margin: 10px 0px;
     height: auto;
     display: flex;
-    justify-content: space-around;
-    border: 2px solid black;
-
+    justify-content: center;
+    
 }
 
 #Posts{
@@ -151,8 +150,14 @@ main{
     border-radius: 200px;
 }
 
+#Pesquisa{
+    width: 50%;
+
+}
+
+
 #Search{
-    width: 100%;
+    width: 90%;
     display: flex;
     flex-direction: row;
     justify-content: center;
