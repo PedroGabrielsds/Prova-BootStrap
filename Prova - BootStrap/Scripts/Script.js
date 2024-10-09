@@ -11,24 +11,31 @@ class Publicacoes{
 }
 
 var TodasPublis = []
-TodasPublis.push(new Publicacoes("/Prova - BootStrap/images/cortado/natureza1.png", "França", "Francês", "França fala fracês", "Sergio", "/Prova - BootStrap/images/original/time/sergio.jpg"))
+TodasPublis.push(new Publicacoes("/Prova - BootStrap/images/cortado/natureza1.png", "Nome Lugar", "Subtitulo", "Lorem", "Sergio", "/Prova - BootStrap/images/original/time/sergio.jpg"))
+
 
 
 TodasPublis.forEach(CadaPubli => {
     document.querySelector("#Publis").innerHTML += `
-        <div id="Posts"> 
+        <div id="Post" style="width:23rem; padding: 20px"> 
             <div id="Imagen">
-                <img src="${CadaPubli.Img}" alt="Blabla">
+                <img src="${CadaPubli.Img}">
             </div>
             <div id="Dono">
-                <h1>${CadaPubli.Titulo}</h1>
-                <h2>${CadaPubli.Subtitulo}</h2>
-                <p>${CadaPubli.Descricao}</p>
+                <div id="Sobre">
+                    <h1>${CadaPubli.Titulo}</h1>
+                    <h2 class="texts">${CadaPubli.Subtitulo}</h2>
+                    <p class="texts">${CadaPubli.Descricao}</p>
+                </div>
                 <div id="Autor">
-                    <img src="${CadaPubli.ImgDono}" alt="Foto">
-                    <p>Post de ${CadaPubli.Dono}</p>
+                    <img  src="${CadaPubli.ImgDono}" alt="Foto">
+                    <p>Post de ${CadaPubli.Dono}</p> 
                 </div>
             </div>
         </div>
     `
 });
+
+// 
+
+

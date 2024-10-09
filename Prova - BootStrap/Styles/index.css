@@ -26,6 +26,10 @@ header a{
 
 #Menu{
     margin: 0px 0px 0px 10px;
+}
+
+#Menu img{
+    width: 10%;
 
 }
 
@@ -95,97 +99,170 @@ main{
 
 /* Inicio Opçoes */
 
-#Opçoes{
+#Catalogo{
     width: 100%;
-    margin: 10px 0px;
-    height: auto;
+    margin: 20px 0px;
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
     
 }
 
 #Posts{
     width: 50%;
+    height: 470px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    
+    align-items: center;
 
 }
 
 #Publis{
     width: 100%;
-    height: 200px;
     display: flex;
     flex-direction: column;
+
+}
+
+#Post{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+#Imagen{
+    width: 100%;
+    
+    
+}
+
+#Imagen img{
+    width: 100%;
     
 
 }
 
-#Imagen{
-    width: 50%;
-    height: 200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-}
-
 #Dono{
-    width: 50%;
+    width: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: start;
+}
+
+#Sobre{
+    width: 100%;
+}
+
+.texts{
+    padding: 10px 0px;
+
 }
 
 #Autor{
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
+
+}
+
+.Auto{
+    text-align: end;
 
 }
 
 #Autor img{
     width: 10%;
-    border-radius: 200px;
+    border-radius: 100px;
 }
 
+/* Fim Catalogo */
+
+/* Inicio Pesquisa */
+
 #Pesquisa{
+    width: 50%;
+    height: 470px;
+    padding: 0px 5px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+#Search{
+    width: 60%;
+    height: 40px;
+    margin: 10px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid rgb(243, 243, 243);
+}
+
+.Filtros{
+    width: 80%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid rgb(243, 243, 243);
+}
+/* Fim Pesquisa */
+/* Fim Opçoes */
+
+/* Inicio Network */
+
+.Work{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(202, 202, 202);
+
+}
+
+#Nat{
+    text-align: center;
+
+}
+
+#Geral{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#Escrita{
+    width: 50%;
+    margin: 0px 20px;
+}
+
+#Fotos{
     width: 50%;
 
 }
 
-
-#Search{
-    width: 90%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+#Fotos img{
+    width: 30%;
+    height: 300px;
 
 }
 
-.Filtros button{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-
-/* Fim Opçoes */
-
-
-
-
-
-
-
-
-
-
-
-
+/* Fim NetWork */
 
 /* Fim Main */
 
@@ -193,7 +270,6 @@ main{
 
 footer{
     width: 100%;
-    margin: 10px 0px 0px 0px;
     height: auto;
     display: flex;
     flex-direction: column;

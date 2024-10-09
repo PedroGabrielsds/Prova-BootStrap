@@ -5,19 +5,20 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="/Prova - BootStrap/Styles/index.css">
         <title>Prova - Bootstrap</title>
+        <link rel="stylesheet" href="/bootstrap-5.3.3-dist/css/bootstrap.css">
     </head>
     <body>
         <header>
             <section id="Cabeça">
                 <div id="Menu">
-                    <img src="#" alt="Icon">
-                    <a href="#">Nome</a>
+                    <a href="/Prova - BootStrap/index.html"><img src="/Prova - BootStrap/images/cortado/natureza3.png" alt="Icon"></a>
+                    <a href="/Prova - BootStrap/index.html">Nome</a>
                 </div>
                 <div id="SubMenu">
-                    <a href="#">Home</a>
+                    <a href="/Prova - BootStrap/index.html">Home</a>
                     <a href="#">Sobre a empresa</a>
                     <a href="#">Blog</a>
-                    <a href="#">Nosso Time</a>
+                    <a href="/Prova - BootStrap/Pages/Nosso time/index.html">Nosso Time</a>
                 </div>
             </section>
         </header>
@@ -45,37 +46,38 @@
                     </div>
                 </div>
             </section>
-            <section id="Opçoes">
+            <section id="Catalogo">
                 <div id="Posts">
                     <div id="Publis"></div>
                 </div>
-                <div id="Pesquisa">
-                    <div id="Search">
-                        <input placeholder="Pesquise" type="text">
-                        <img src="/Prova - BootStrap/images/icons/search.svg" alt="IconSearch">
+                <div id="Pesquisa"> 
+                    <button id="Search" type="button">Pesquise<img src="/Prova - BootStrap/images/icons/search.svg" alt="IconSearch"></button> 
+               
+                    <button class="Filtros" type="button"><p>Posts recentes</p><img src="/Prova - BootStrap/images/icons/caret-down-fill.svg" alt=""></button>
+                      
+                    <button class="Filtros" type="button"><p>Temas do Blog</p><img src="/Prova - BootStrap/images/icons/caret-down-fill.svg" alt=""></button>
+                    
+                    <button class="Filtros" type="button"><p>Galeria</p> <img src="/Prova - BootStrap/images/icons/caret-down-fill.svg" alt=""></button>
+                    
+                    <button class="Filtros" type="button"><p>Categorias</p><img src="/Prova - BootStrap/images/icons/caret-down-fill.svg" alt=""></button>
+                    
+                    <button class="Filtros" type="button"><p>Blog do Sergio</p><img src="/Prova - BootStrap/images/icons/caret-down-fill.svg" alt=""></button>
+                </div>
+            </section>
+
+            <section class="Work">
+                    <h1>Monte um NetWorking de viagem!</h1>
+                <div id="Geral">
+                    <div id="Escrita">
+                        <h5>Conheça novas pessoas compartilhe experiências!</h5>
+                        <p>Lorem</p>
                     </div>
-                    <div class="Filtros">
-                        <p></p>
-                        <button type="button">Produtos<img src="/Prova - BootStrap/images/icons/caret-down-fill.svg" alt=""></button>
-                    </div>
-                    <div class="Filtros">
-                        <p></p>
-                        <button type="button"><img src="/Prova - BootStrap/images/icons/caret-down-fill.svg" alt=""></button>
-                    </div>
-                    <div class="Filtros">
-                        <p></p>
-                        <button type="button"><img src="/Prova - BootStrap/images/icons/caret-down-fill.svg" alt=""></button>
-                    </div>
-                    <div class="Filtros">
-                        <p></p>
-                        <button type="button"><img src="/Prova - BootStrap/images/icons/caret-down-fill.svg" alt=""></button>
-                    </div>
-                    <div class="Filtros">
-                        <p></p>
-                        <button type="button"><img src="/Prova - BootStrap/images/icons/caret-down-fill.svg" alt=""></button>
+                    <div id="Fotos">
+                        <img src="/Prova - BootStrap/images/original/time/alice.jpg" alt="fotos">
+                        <img src="/Prova - BootStrap/images/original/time/alice.jpg" alt="fotos">
+                        <img src="/Prova - BootStrap/images/original/time/alice.jpg" alt="fotos">
                     </div>
                 </div>
-
             </section>
 
         </main>
@@ -90,6 +92,7 @@
 
         </footer>
 
+        <script src="/bootstrap-5.3.3-dist/js/bootstrap.bundle.js"></script>
         <script src="/Prova - BootStrap/Scripts/Script.js"></script>
     </body>
 </html>
