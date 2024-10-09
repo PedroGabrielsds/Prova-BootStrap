@@ -44,75 +44,84 @@ header a{
 /* Main */
 main{
     width: 100%;
-    height: 100vh;
     margin: 10px 0px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
 #PrimeiroTime{
-    width: 90%;
+    width: 70%;
     height: auto;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    
-    
 }
 
 #ImgDono{
-    width: 30%;
-    height: 600px;
-
-}
-
-#ImgDono img{
-    width: 100%;
-    height: 600px;
-    margin: 0px 0px 0px 70px;
-}
-
-#Projetos{
     width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+}
+
+#ImgDono img{
+    width: 60%;
+    height: 600px;
+
 }
 
 #SobreAutor{
-    width: 70%;
+    width: 50%;
+    text-align: center;
+}
+
+#Direita{
+    width: 20%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 30px;
+}
+
+#Trabalhos{
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 
-#Images{
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.Imagens{
-    width: 40%;
+#Imagens{
+    width: 100%;
+    gap: 10px;
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: center;
+    align-items: center;
 }
 
-.Imagenss{
-    width: 100%;
-    margin: 5px;
+.Img1{
+    width: 90px;
+    margin: 10px;
+}
+
+#TerceiroTime{
+    width: 70%;
+    margin: 20px 0px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 
 }
+
 
 /* Fim Main */
 
