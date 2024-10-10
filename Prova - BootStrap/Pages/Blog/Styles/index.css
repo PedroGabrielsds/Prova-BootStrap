@@ -1,0 +1,87 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(179, 179, 179);
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+}
+
+#Cabeça{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#Menu{
+    margin: 0px 0px 0px 10px;
+}
+
+#Menu img{
+    width: 10%;
+
+}
+
+#SubMenu, a{
+    margin: 0px 10px 0px 0px;
+    gap: 20px;
+
+}
+
+/* Fim Header */
+
+/* Inicio main */
+body{
+    background-color: rgb(172, 172, 172);
+}
+
+#comentarios{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+h1{
+    text-align: center;
+    padding: 15px 0px 0px 0px;
+}
+
+#linkDiv a{
+    text-decoration: none;
+    color: black;
+}
+/* Fim main */
+
+
+/* Footer */
+
+footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(37, 37, 37);
+}
+
+#Contato{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+}
