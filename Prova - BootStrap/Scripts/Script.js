@@ -1,41 +1,43 @@
-class Publicacoes{
-    constructor(Img, Titulo, Subtitulo, Descricao, Dono, ImgDono){
-        this.Img = Img;
+class Pacote {
+    constructor(Image, Titulo, Subtitulo, Descricao, ImgDono, NomePost){
+        this.Image = Image;
         this.Titulo = Titulo;
         this.Subtitulo = Subtitulo;
         this.Descricao = Descricao;
-        this.Dono = Dono;
-        this.ImgDono = ImgDono
+        this.ImgDono = ImgDono;
+        this.NomePost = NomePost;
     }
+}           
 
-}
+var TodosPacotes = []
+TodosPacotes.push(new Pacote ("/Prova - BootStrap/images/Dow/natureza.jpg","japão", "Japonês fala japonês no Japão", "Japao fica na Asia", "/Prova - BootStrap/images/original/time/alice.jpg", "Alice"))
 
-var TodasPublis = []
-TodasPublis.push(new Publicacoes("/Prova - BootStrap/images/cortado/natureza1.png", "Nome Lugar", "Subtitulo", "Lorem", "Sergio", "/Prova - BootStrap/images/original/time/sergio.jpg"))
+TodosPacotes.push(new Pacote ("/Prova - BootStrap/images/Dow/natureza.jpg","japão", "Japonês fala japonês no Japão", "Japao fica na Asia", "/Prova - BootStrap/images/original/time/alice.jpg", "Alice"))
 
+TodosPacotes.push(new Pacote ("/Prova - BootStrap/images/Dow/natureza.jpg","japão", "Japonês fala japonês no Japão", "Japao fica na Asia", "/Prova - BootStrap/images/original/time/alice.jpg", "Alice"))
 
-
-TodasPublis.forEach(CadaPubli => {
-    document.querySelector("#Publis").innerHTML += `
-        <div id="Post" style="width:23rem; padding: 20px"> 
-            <div id="Imagen">
-                <img src="${CadaPubli.Img}">
+TodosPacotes.push(new Pacote ("/Prova - BootStrap/images/Dow/natureza.jpg","japão", "Japonês fala japonês no Japão", "Japao fica na Asia", "/Prova - BootStrap/images/original/time/alice.jpg", "Alice"))
+                
+TodosPacotes.forEach(CadaPacote => {
+    document.querySelector("#Geral1").innerHTML += `
+    <a href="/Prova - BootStrap/Pages/Postagem/index.html">
+        <div id="Geral2">
+            <div id="Image">
+                <img src="${CadaPacote.Image}" alt="Image">
             </div>
-            <div id="Dono">
-                <div id="Sobre">
-                    <h1>${CadaPubli.Titulo}</h1>
-                    <h2 class="texts">${CadaPubli.Subtitulo}</h2>
-                    <p class="texts">${CadaPubli.Descricao}</p>
+            <div id="Infos">
+                <div id="Textos">
+                    <h1>${CadaPacote.Titulo}</h1>
+                    <h2>${CadaPacote.Subtitulo}</h2>
+                    <p>${CadaPacote.Descricao}</p>
                 </div>
-                <div id="Autor">
-                    <img  src="${CadaPubli.ImgDono}" alt="Foto">
-                    <p>Post de ${CadaPubli.Dono}</p> 
+                <div id="Dono">
+                    <img src="${CadaPacote.ImgDono}" alt="Dono">
+                    <p>Post por ${CadaPacote.NomePost}</p>
                 </div>
             </div>
         </div>
+    </a>
     `
-});
-
-// 
-
+});    
 
