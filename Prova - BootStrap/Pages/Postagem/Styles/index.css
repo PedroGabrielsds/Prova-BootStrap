@@ -1,0 +1,117 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(179, 179, 179);
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+}
+
+#Cabeça{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#Menu{
+    margin: 0px 0px 0px 10px;
+}
+
+#Menu img{
+    width: 10%;
+
+}
+
+#SubMenu, a{
+    margin: 0px 10px 0px 0px;
+    gap: 20px;
+
+}
+
+/* Fim Header */
+
+/* Main */
+
+main{
+    width: 100%;
+    height: auto;
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#Geral{
+    width: 60%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#Infos{
+    width: 90%;
+    text-align: center;
+}
+
+#Infos button{
+    padding: 5px;
+    color: whitesmoke;
+    border: 2px solid black;
+    background-color: black;
+}
+
+#Infos img{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(189, 189, 189);
+
+}
+
+#Autor{
+    width: 100%;
+    text-align: center;
+}
+
+#Autor img{
+    width: 100%;
+
+}
+
+
+
+
+
+/* Footer */
+
+footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(37, 37, 37);
+}
+
+#Contato{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+}
