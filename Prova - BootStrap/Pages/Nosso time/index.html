@@ -16,7 +16,7 @@
                 </div>
                 <div id="SubMenu">
                     <a href="/Prova - BootStrap/index.html">Home</a>
-                    <a href="#">Sobre a empresa</a>
+                    <a href="/Prova - BootStrap/Pages/Sobre Nós/index.html">Sobre a empresa</a>
                     <a href="/Prova - BootStrap/Pages/Blog/index.html">Blog</a>
                     <a href="/Prova - BootStrap/Pages/Nosso time/index.html">Nosso Time</a>
                 </div>
@@ -38,12 +38,16 @@
                         <p>Titulo</p>
                         <div id="Imagens">
                             <div>
-                                <img class="Img1" src="/Prova - BootStrap/images/cortado/natureza1.png">
-                                <img class="Img1" src="/Prova - BootStrap/images/cortado/natureza2.png">
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#mymodal">
+                                    <img class="Img1" src="/Prova - BootStrap/images/cortado/natureza1.png">
+                                    <img class="Img1" src="/Prova - BootStrap/images/cortado/natureza2.png">
+                                </a>
                             </div>
                             <div>
-                                <img class="Img1" src="/Prova - BootStrap/images/cortado/natureza3.png">
-                                <img class="Img1" src="/Prova - BootStrap/images/cortado/natureza4.png">
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#mymodal">
+                                    <img class="Img1" src="/Prova - BootStrap/images/cortado/natureza3.png">
+                                    <img class="Img1" src="/Prova - BootStrap/images/cortado/natureza4.png">
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -61,12 +65,16 @@
                         <p>Titulo</p>
                         <div id="Imagens">
                             <div>
-                                <img class="Img1" src="/Prova - BootStrap/images/cortado/natureza1.png">
-                                <img class="Img1" src="/Prova - BootStrap/images/cortado/natureza2.png">
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#mymodal">
+                                    <img class="Img1" src="/Prova - BootStrap/images/cortado/natureza1.png">
+                                    <img class="Img1" src="/Prova - BootStrap/images/cortado/natureza2.png">
+                                </a>
                             </div>
                             <div>
-                                <img class="Img1" src="/Prova - BootStrap/images/cortado/natureza3.png">
-                                <img class="Img1" src="/Prova - BootStrap/images/cortado/natureza4.png">
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#mymodal">
+                                    <img class="Img1" src="/Prova - BootStrap/images/cortado/natureza3.png">
+                                    <img class="Img1" src="/Prova - BootStrap/images/cortado/natureza4.png">
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -89,13 +97,17 @@
                     <div id="Trabalhos">
                         <p>Titulo</p>
                         <div id="Imagens">
-                            <div>
-                                <img class="Img1" src="/Prova - BootStrap/images/cortado/natureza1.png">
-                                <img class="Img1" src="/Prova - BootStrap/images/cortado/natureza2.png">
+                            <div> 
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#mymodal">
+                                    <img class="Img1" src="/Prova - BootStrap/images/cortado/natureza1.png">
+                                    <img class="Img1" src="/Prova - BootStrap/images/cortado/natureza2.png">
+                                </a>
                             </div>
                             <div>
-                                <img class="Img1" src="/Prova - BootStrap/images/cortado/natureza3.png">
-                                <img class="Img1" src="/Prova - BootStrap/images/cortado/natureza4.png">
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#mymodal">
+                                    <img class="Img1" src="/Prova - BootStrap/images/cortado/natureza3.png">
+                                    <img class="Img1" src="/Prova - BootStrap/images/cortado/natureza4.png">
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -112,6 +124,37 @@
             </section>
 
         </footer>
+
+
+        <div class="modal" id="mymodal" tabindex="-1">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title"></h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" style="width: 100%;">
+                  <div id="Conteudo">
+                    <div id="ImgPrincipal" >
+                        <img style="width: 100%;" src="/Prova - BootStrap/images/cortado/natureza2.png" alt="">
+                    </div>
+                    <h1 style="margin: 5px 0px;">Titulo</h1>
+                    <h2 style="margin: 5px 0px;">Subtitulo</h2>
+                    <div id="Dono" style="display: flex; flex-direction: row; align-items: center; margin: 10px 0px;">
+                        <img style="width: 10%; border-radius: 2000px;" src="/Prova - BootStrap/images/cortado/aliceRosto.png" alt="">
+                        <p>Post por Alice</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
 
 
         <script src="/bootstrap-5.3.3-dist/js/bootstrap.bundle.js"></script>
